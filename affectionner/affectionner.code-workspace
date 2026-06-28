@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "name": "affectionner.me",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions": {
+    "recommendations": [
+      "ritwickdey.LiveServer",
+      "esbenp.prettier-vscode",
+      "ecmel.vscode-html-css",
+      "formulahendry.auto-rename-tag",
+      "naumovs.color-highlight",
+      "christian-kohler.path-intellisense",
+      "wayou.vscode-todo-highlight",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Open in Live Server",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:5500/index.html",
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+  }
+}
